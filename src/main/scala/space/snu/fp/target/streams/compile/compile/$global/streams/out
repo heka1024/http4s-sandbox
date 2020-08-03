@@ -1,0 +1,163 @@
+[0m[[0m[33mwarn[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutRepo.scala:3:22: imported `Hut' is permanently hidden by definition of object Hut in package fp[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport space.snu.fp.{Hut, HutWithId}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutRepo.scala:3:27: imported `HutWithId' is permanently hidden by definition of object HutWithId in package fp[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport space.snu.fp.{Hut, HutWithId}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutRepo.scala:6:8: not found: object cats[0m
+[0m[[0m[31merror[0m] [0m[0mimport cats.effect.IO[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutRepo.scala:7:8: not found: object cats[0m
+[0m[[0m[31merror[0m] [0m[0mimport cats.implicits._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutRepo.scala:10:16: not found: type Sync[0m
+[0m[[0m[31merror[0m] [0m[0m  (implicit e: Sync[F]) {[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutRepo.scala:16:15: value flatMap is not a member of type parameter F[String][0m
+[0m[[0m[31merror[0m] [0m[0m      uuid <- makeId[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutRepo.scala:30:31: not found: type Sync[0m
+[0m[[0m[31merror[0m] [0m[0m  def empty[F[_]](implicit f: Sync[F]): F[HutRepository[F]] = f.delay {[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:3:8: not found: object cats[0m
+[0m[[0m[31merror[0m] [0m[0mimport cats.effect.IO[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:4:8: not found: object cats[0m
+[0m[[0m[31merror[0m] [0m[0mimport cats.Monad[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:5:8: not found: object cats[0m
+[0m[[0m[31merror[0m] [0m[0mimport cats.FlatMap[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:6:8: not found: object cats[0m
+[0m[[0m[31merror[0m] [0m[0mimport cats.implicits._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:7:8: not found: object cats[0m
+[0m[[0m[31merror[0m] [0m[0mimport cats.effect._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:8:8: not found: object fs2[0m
+[0m[[0m[31merror[0m] [0m[0mimport fs2.StreamApp[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:9:8: not found: object fs2[0m
+[0m[[0m[31merror[0m] [0m[0mimport fs2.Stream[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:10:11: object circe is not a member of package io[0m
+[0m[[0m[31merror[0m] [0m[0mimport io.circe.generic.auto._[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:11:11: object circe is not a member of package io[0m
+[0m[[0m[31merror[0m] [0m[0mimport io.circe.syntax._[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:13:12: object http4s is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.http4s._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:14:12: object http4s is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.http4s.circe._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:15:12: object http4s is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.http4s.dsl.Http4sDsl[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:16:12: object http4s is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.http4s.server.blaze.BlazeBuilder[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:17:12: object http4s is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.http4s.dsl.io._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:23:26: not found: type StreamApp[0m
+[0m[[0m[31merror[0m] [0m[0mobject HutServer extends StreamApp[IO] with Http4sDsl[IO] {[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:23:45: not found: type Http4sDsl[0m
+[0m[[0m[31merror[0m] [0m[0mobject HutServer extends StreamApp[IO] with Http4sDsl[IO] {[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:27:60: not found: type Effect[0m
+[0m[[0m[31merror[0m] [0m[0m  def service[F[_]](hutRepo: HutRepository[F])(implicit F: Effect[F]) = HttpService[F] {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:27:73: not found: value HttpService[0m
+[0m[[0m[31merror[0m] [0m[0m  def service[F[_]](hutRepo: HutRepository[F])(implicit F: Effect[F]) = HttpService[F] {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:29:14: not found: value ->[0m
+[0m[[0m[31merror[0m] [0m[0m    case GET -> Root / HUTS / hutId =>[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:29:10: not found: value GET[0m
+[0m[[0m[31merror[0m] [0m[0m    case GET -> Root / HUTS / hutId =>[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:29:29: not found: value /[0m
+[0m[[0m[31merror[0m] [0m[0m    case GET -> Root / HUTS / hutId =>[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:29:22: not found: value /[0m
+[0m[[0m[31merror[0m] [0m[0m    case GET -> Root / HUTS / hutId =>[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:29:17: not found: value Root[0m
+[0m[[0m[31merror[0m] [0m[0m    case GET -> Root / HUTS / hutId =>[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:31:12: value flatMap is not a member of type parameter F[Option[space.snu.fp.HutWithId]][0m
+[0m[[0m[31merror[0m] [0m[0mpossible cause: maybe a semicolon is missing before `value flatMap'?[0m
+[0m[[0m[31merror[0m] [0m[0m          .flatMap{[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:32:25: not found: value Response[0m
+[0m[[0m[31merror[0m] [0m[0m      case Some(hut) => Response(status = Status.Ok).withBody(hut.asJson)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:32:34: not found: value status[0m
+[0m[[0m[31merror[0m] [0m[0m      case Some(hut) => Response(status = Status.Ok).withBody(hut.asJson)[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:32:67: value asJson is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m      case Some(hut) => Response(status = Status.Ok).withBody(hut.asJson)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:36:21: not found: value ->[0m
+[0m[[0m[31merror[0m] [0m[0m    case req @ POST -> Root / HUTS =>[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:36:16: not found: value POST[0m
+[0m[[0m[31merror[0m] [0m[0m    case req @ POST -> Root / HUTS =>[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:36:29: not found: value /[0m
+[0m[[0m[31merror[0m] [0m[0m    case req @ POST -> Root / HUTS =>[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:36:24: not found: value Root[0m
+[0m[[0m[31merror[0m] [0m[0m    case req @ POST -> Root / HUTS =>[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:41:20: not found: value ->[0m
+[0m[[0m[31merror[0m] [0m[0m    case req @ PUT -> Root / HUTS =>[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:41:16: not found: value PUT[0m
+[0m[[0m[31merror[0m] [0m[0m    case req @ PUT -> Root / HUTS =>[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:41:28: not found: value /[0m
+[0m[[0m[31merror[0m] [0m[0m    case req @ PUT -> Root / HUTS =>[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:41:23: not found: value Root[0m
+[0m[[0m[31merror[0m] [0m[0m    case req @ PUT -> Root / HUTS =>[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:46:17: not found: value ->[0m
+[0m[[0m[31merror[0m] [0m[0m    case DELETE -> Root / HUTS / hutId =>[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:46:10: not found: value DELETE[0m
+[0m[[0m[31merror[0m] [0m[0m    case DELETE -> Root / HUTS / hutId =>[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:46:32: not found: value /[0m
+[0m[[0m[31merror[0m] [0m[0m    case DELETE -> Root / HUTS / hutId =>[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:46:25: not found: value /[0m
+[0m[[0m[31merror[0m] [0m[0m    case DELETE -> Root / HUTS / hutId =>[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:46:20: not found: value Root[0m
+[0m[[0m[31merror[0m] [0m[0m    case DELETE -> Root / HUTS / hutId =>[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:48:10: value flatMap is not a member of type parameter F[Unit][0m
+[0m[[0m[31merror[0m] [0m[0mpossible cause: maybe a semicolon is missing before `value flatMap'?[0m
+[0m[[0m[31merror[0m] [0m[0m        .flatMap(_ => F.pure(Response(status = Status.NoContent)))[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:51:51: not found: type IO[0m
+[0m[[0m[31merror[0m] [0m[0m  def stream(args: List[String], requestShutdown: IO[Unit]) =[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:52:12: value eval is not a member of object scala.collection.immutable.Stream[0m
+[0m[[0m[31merror[0m] [0m[0m    Stream.eval(HutRepository.empty[IO]).flatMap { hutRepo =>[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:52:37: not found: type IO[0m
+[0m[[0m[31merror[0m] [0m[0m    Stream.eval(HutRepository.empty[IO]).flatMap { hutRepo =>[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:53:5: not found: value BlazeBuilder[0m
+[0m[[0m[31merror[0m] [0m[0m    BlazeBuilder[IO][0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/workspace/fp/src/main/scala/space/snu/fp/HutServer.scala:53:18: not found: type IO[0m
+[0m[[0m[31merror[0m] [0m[0m    BlazeBuilder[IO][0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[31merror[0m] [0m[0m51 errors found[0m
